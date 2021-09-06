@@ -4,16 +4,16 @@
   <test  name="Test-Runner-Chrome">
   <parameter name="BROWSER" value="chrome"/>
     <classes>
-      <class name="com.vtiger.comecast.producttest.TC_3_Search_Prdby_commrate"/>
-      <class name="com.vtiger.comecast.producttest.TC_2_Search_Prdby_partno"/>
+      <class name="com.vtiger.comecast.producttest.TC_3_Search_Prdby_commrateTest"/>
+      <class name="com.vtiger.comecast.producttest.TC_2_Search_Prdby_partnoTest"/>
     </classes>
   </test> <!-- Test -->
   
   <test  name="Test-Runner-Firefox">
   <parameter name="BROWSER" value="firefox"/>
     <classes>
-      <class name="com.vtiger.comecast.producttest.TC_3_Search_Prdby_commrate"/>
-      <class name="com.vtiger.comecast.producttest.TC_2_Search_Prdby_partno"/>
+      <class name="com.vtiger.comecast.producttest.TC_3_Search_Prdby_commrateTest"/>
+      <class name="com.vtiger.comecast.producttest.TC_2_Search_Prdby_partnoTest"/>
     </classes>
   </test> <!-- Test -->
   

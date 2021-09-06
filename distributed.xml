@@ -5,14 +5,14 @@
   <test  name="TestRunner-1">
   
     <classes>
-      <class name="com.vtiger.comecast.producttest.TC_3_Search_Prdby_commrate"/>
+      <class name="com.vtiger.comecast.producttest.TC_3_Search_Prdby_commrateTest"/>
       
     </classes>
     </test> <!-- Test -->
     <test  name="TestRunner-2">
     <classes>
       
-      <class name="com.vtiger.comecast.producttest.TC_2_Search_Prdby_partno"/>
+      <class name="com.vtiger.comecast.producttest.TC_2_Search_Prdby_partnoTest"/>
     </classes>
     </test> <!-- Test -->
     

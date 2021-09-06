@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import com.vtiger.comecast.Generic_utility.BaseClass;
 import com.vtiger.comecast.Generic_utility.ExcelUtility;
 import com.vtiger.comecast.Generic_utility.FileUtility;
 import com.vtiger.comecast.Generic_utility.JavaUtility;
@@ -14,7 +15,7 @@ import com.vtiger.comecast.pomrepositlib.Login;
 import com.vtiger.comecast.pomrepositlib.Product;
 import com.vtiger.comecast.pomrepositlib.ProductInformation;
 
-public class TC_3_Search_Prdby_commrateTest {
+public class TC_3_Search_Prdby_commrateTest extends BaseClass{
 	@Test(groups="smoke")
 
 	public void search_Prdby_commrateTest() throws Throwable {

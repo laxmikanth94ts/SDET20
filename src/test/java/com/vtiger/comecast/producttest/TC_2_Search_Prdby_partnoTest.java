@@ -17,7 +17,7 @@ import com.vtiger.comecast.pomrepositlib.Login;
 import com.vtiger.comecast.pomrepositlib.Product;
 import com.vtiger.comecast.pomrepositlib.ProductInformation;
 @Listeners(com.vtiger.comecast.Generic_utility.LisImpClass.class)
-public class TC_2_Search_Prdby_partnoTest extends BaseClass{
+public class TC_2_Search_Prdby_partnoTest extends BaseClass {
 	@Test
 
 	public void search_Prdby_partnoTest()  throws Throwable {

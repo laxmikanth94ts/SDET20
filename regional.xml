@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.vtiger.comecast.producttest.TC_1_Search_Prdby_prdno"/>
+      <class name="com.vtiger.comecast.producttest.TC_1_Search_Prdby_prdnoTest"/>
       <class name="Practise.smo">
       <methods>
       <include name="search_Prdby_commrateTest"/>

@@ -15,12 +15,11 @@ import com.vtiger.comecast.pomrepositlib.Login;
 import com.vtiger.comecast.pomrepositlib.Product;
 import com.vtiger.comecast.pomrepositlib.ProductInformation;
 
-public class TC_1_Search_Prdby_prdnoTest extends BaseClass{
+public class TC_1_Search_Prdby_prdnoTest extends BaseClass {
+	
 	@Test
 
 	public void search_Prdby_prdnoTest() throws Throwable {
-		
-
 		
 		String productname=eLib.getDataFromExcel("Sheet1", 1, 1)+jLib.getRandomnumber();
 		String productno=eLib.getDataFromExcel("Sheet1", 1, 2)+jLib.getRandomnumber();
@@ -66,7 +65,7 @@ public class TC_1_Search_Prdby_prdnoTest extends BaseClass{
 	 Thread.sleep(5000);
 		}
 	@Test
-	public void search_Prdby_partnoTest1()  throws Throwable {
+	public void search_Prdby_partnTest()  throws Throwable {
 		// TODO Auto-generated method stub
 		
 	int randomno=jLib.getRandomnumber();

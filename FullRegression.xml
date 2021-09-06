@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.vtiger.comecast.producttest.TC_1_Search_Prdby_prdno"/>
-      <class name="com.vtiger.comecast.producttest.TC_3_Search_Prdby_commrate"/>
+      <class name="com.vtiger.comecast.producttest.TC_1_Search_Prdby_prdnoTest"/>
+      <class name="com.vtiger.comecast.producttest.TC_3_Search_Prdby_commrateTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

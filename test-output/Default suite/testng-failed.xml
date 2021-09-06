@@ -11,8 +11,6 @@
           <include name="configAS"/>
           <include name="AC"/>
           <include name="BM"/>
-          <include name="search_Prdby_commrateTest"/>
-          <include name="search_Prdby_partnoTest1"/>
           <include name="configBS"/>
         </methods>
       </class> <!-- com.vtiger.comecast.producttest.TC_1_Search_Prdby_prdnoTest -->

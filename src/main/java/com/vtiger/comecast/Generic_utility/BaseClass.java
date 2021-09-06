@@ -2,22 +2,20 @@ package com.vtiger.comecast.Generic_utility;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import com.vtiger.comecast.pomrepositlib.Home;
-import com.vtiger.comecast.pomrepositlib.Login;
-
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
+
+import com.vtiger.comecast.pomrepositlib.Home;
+import com.vtiger.comecast.pomrepositlib.Login;
 
 public class BaseClass {
-	public static WebDriver bDriver;
 	
 	 public WebDriver driver;
+	 public static WebDriver bDriver;
 	public WebDriverUtility wLib = new WebDriverUtility();
 	public JavaUtility jLib = new JavaUtility();
 	public ExcelUtility eLib = new ExcelUtility();
@@ -34,24 +32,20 @@ public class BaseClass {
 		@BeforeClass(groups="smoke")
 		public void Bc() throws Throwable
 		{
-			/*if(BROWSER.equals("chrome"))
-			{
-				driver=new ChromeDriver();
-			}
-			else if(BROWSER.equals("firefox"))
-			{
-				driver=new FirefoxDriver();
-
-			}
-			else
-			{
-				driver=new ChromeDriver();
-			}*/
+			//String BROWSER=System.getProperty("browser");
+			/*
+			 * if(BROWSER.equals("chrome")) { driver=new ChromeDriver(); } else
+			 * if(BROWSER.equals("firefox")) { driver=new FirefoxDriver();
+			 * 
+			 * } else { driver=new ChromeDriver(); }
+			 */
 			
 			   driver=new ChromeDriver();
 			   bDriver=driver;
 				driver.manage().window().maximize();
 				wLib.implictWait(driver);
+				String url=fLib.getPropertyKeyVAlue("appUrl");
+				driver.get(url);
 				
 		}
 				
@@ -60,8 +54,6 @@ public class BaseClass {
 		@BeforeMethod(groups="smoke")
 		public void BM() throws Throwable
 		{
-			   String url=fLib.getPropertyKeyVAlue("appUrl");
-			   driver.get(url);
 			   
 
 			 String username=fLib.getPropertyKeyVAlue("username");
